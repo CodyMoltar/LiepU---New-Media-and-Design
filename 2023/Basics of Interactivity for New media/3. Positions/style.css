@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding: 1em;
+    width: 100%;
+    max-width: 78em;
+}
+
+
+.left {
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.left img,
+.right img {
+    width: 70%;
+    height: auto;
+}
+
+.right {
+    text-align: right;
+    margin-bottom: 1em;
+}
