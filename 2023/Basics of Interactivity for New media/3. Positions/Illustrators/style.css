@@ -1,0 +1,19 @@
+.mobile {
+    display: none;
+}
+
+.special:hover {
+    fill: hotpink;
+}
+
+
+@media screen and (max-width: 600px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+}
